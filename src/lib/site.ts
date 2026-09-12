@@ -10,17 +10,31 @@ export const site = {
   tagline: "Licensed Clinical Psychologist",
   url: "https://www.drmayareynolds.com",
   email: "info@mayareynoldspsyd.com",
+  phone: "(310) 555-0192",
   address: {
     street: "123th Street 45 W",
     city: "Santa Monica",
     state: "CA",
     zip: "90401",
     full: "123th Street 45 W, Santa Monica, CA 90401",
+    country: "US",
   },
+  geo: {
+    latitude: 34.0195,
+    longitude: -118.4912,
+  },
+  metaTitle:
+    "Dr. Maya Reynolds, PsyD | Therapy for Anxiety, Trauma & Burnout — Santa Monica, CA",
+  metaDescription:
+    "Dr. Maya Reynolds, PsyD offers warm, evidence-based therapy in Santa Monica, CA. Specializing in anxiety, trauma (EMDR), and burnout. In-person & telehealth.",
+  ogTitle:
+    "Dr. Maya Reynolds, PsyD — Therapy for Anxiety, Trauma & Burnout in Santa Monica",
+  ogDescription:
+    "Compassionate, evidence-based therapy for adults, professionals, and creatives in Santa Monica, CA. In-person sessions and California-wide secure telehealth.",
   serving:
     "Serving Santa Monica, Venice, West Los Angeles, & communities across California",
   description:
-    "Dr. Maya Reynolds, PsyD is a licensed clinical psychologist in Santa Monica, California, offering warm, evidence-based therapy for adults — anxiety & panic, trauma & EMDR, and burnout & perfectionism. In-person sessions and secure telehealth across California.",
+    "Dr. Maya Reynolds, PsyD offers warm, evidence-based therapy in Santa Monica, CA. Specializing in anxiety, trauma (EMDR), and burnout. In-person & telehealth.",
 } as const;
 
 export const nav = [
@@ -52,19 +66,19 @@ export const audiences = [
   {
     title: "Adults",
     image: "/images/help-adults.jpg",
-    alt: "A calm armchair with a soft throw blanket beside a bright window in a peaceful therapy room",
+    alt: "Comfortable armchair with soft throw blanket in Dr. Maya Reynolds' Santa Monica therapy office for adult counseling",
     text: "Feeling overwhelmed, anxious, or emotionally on edge? Working with adults is the heart of my practice — a compassionate space to make sense of what you're feeling, address it at the root, and move forward with greater clarity and confidence.",
   },
   {
     title: "High Achievers & Professionals",
     image: "/images/help-professionals.jpg",
-    alt: "A serene desk corner with an open journal and a cup of tea in warm natural light",
+    alt: "Warm desk corner with open journal and tea in natural sunlight representing burnout therapy for high achievers",
     text: "Many of my clients are thoughtful, capable people who seem “functional” on the outside while quietly struggling with worry, pressure, and exhaustion. Therapy can help you keep what works — and build a life that feels sustainable from the inside, too.",
   },
   {
     title: "Entrepreneurs & Creatives",
     image: "/images/help-creatives.jpg",
-    alt: "A creative studio corner with art books, dried grasses in a clay vase, and soft warm light",
+    alt: "Artful studio interior with ceramics and dried flora reflecting therapy for entrepreneurs and creatives in Los Angeles",
     text: "Entrepreneurs, creatives, and professionals often spend years pushing through stress until they feel disconnected from themselves. Therapy can become a space to slow down, reconnect, and develop more sustainable ways of living and working.",
   },
 ] as const;

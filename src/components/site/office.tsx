@@ -64,7 +64,7 @@ export default function Office() {
             <div className="relative aspect-[4/3] w-full overflow-hidden">
               <Image
                 src="/images/office-1.jpg"
-                alt="The main seating area of the Santa Monica therapy office, with a soft sofa, armchair, and large sunny windows"
+                alt="Primary client seating area of Dr. Maya Reynolds' Santa Monica therapy office, featuring natural light, comfortable sofa, and serene decor"
                 fill
                 sizes="(min-width: 1024px) 55vw, 100vw"
                 className="object-cover"
@@ -73,7 +73,7 @@ export default function Office() {
             <div className="absolute bottom-0 left-0 aspect-[4/3] w-1/2 overflow-hidden border-[10px] border-sand sm:border-[14px] lg:w-[46%]">
               <Image
                 src="/images/office-2.jpg"
-                alt="A second view of the office showing the bookshelf, sofa, and warm hardwood floors"
+                alt="Second perspective of Dr. Maya Reynolds' Santa Monica therapy office displaying bookshelf, sofa, and warm hardwood floors"
                 fill
                 sizes="(min-width: 1024px) 26vw, 50vw"
                 className="object-cover"

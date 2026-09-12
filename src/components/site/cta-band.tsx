@@ -8,11 +8,10 @@ export default function CtaBand() {
         <div className="relative hidden h-[22rem] lg:block lg:h-[24rem]">
           <Image
             src="/images/office-1.jpg"
-            alt=""
+            alt="Comfortable private seating in Dr. Maya Reynolds' Santa Monica therapy office"
             fill
             sizes="11vw"
             className="object-cover"
-            aria-hidden
           />
         </div>
 

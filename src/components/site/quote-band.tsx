@@ -6,11 +6,10 @@ export default function QuoteBand() {
       {/* Warm office photograph under a deep espresso overlay (as in the original layout) */}
       <Image
         src="/images/office-2.jpg"
-        alt=""
+        alt="Tranquil, grounded therapy room interior at Dr. Maya Reynolds' Santa Monica clinical psychology office"
         fill
         sizes="100vw"
         className="object-cover"
-        aria-hidden
       />
       <div className="absolute inset-0 bg-coffee/85" aria-hidden />
 
